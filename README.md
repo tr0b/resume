@@ -1,2 +1,2 @@
 # resume
-My resume, in it's own github page
+My resume! in it's own github page
