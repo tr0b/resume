@@ -1,0 +1,112 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Thomas Robinson R.}
+\address{Cartago, Costa Rica}
+\contacts{(+506) 8877-0497 \linebreak trobin0000@gmail.com}
+\careertitle{Senior Software Engineer}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Senior Software Engineer}{ActiveCampaign}{Summer 2023}
+			Zendesk Integration Service (ZIS)
+			\begin{itemize}
+				\item Orchestrated the development and implementation of ZIS, a groundbreaking ticketing system that revolutionized the CX team's resolution capabilities, leading to a 40\% increase in ticket resolutions and significantly boosting customer experience metrics.
+			\end{itemize}
+			ARC
+			\begin{itemize}
+				\item Engineered the latest version of the multi-region campaign approval system, aligned with global datacenters and adhering to GRDC legislation; this strategic move resulted in a remarkable 20\% revenue surge for the company.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Software Engineer}{SchoolMint}{Spring 2021 -- Summer 2023}		
+			\begin{itemize}
+				\item Boosted company revenue by \$2.1M through the creation and implementation of innovative workflows including a cutting-edge scoring engine and a multimedia verification system, driving increased customer engagement and sales conversions.
+				\item Slashed build time duration in CI/CD pipelines by 50\% through the successful implementation of a cutting-edge transpiler tool, resulting in a 25\% increase in deployment frequency and overall team productivity.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Associate Software Engineer}{SchoolMint}{Fall 2020 -- Spring 2021}	
+			\begin{itemize}
+				\item Expanded student enrollment for school district by 60\%, through the creation of a new web KML importer.
+				\item Reduced the time of entity imports from 1 hour to 5 minutes, by implementing asynchronous, in-batches workers.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Software Engineer, SIS Intern}{SchoolMint}{Summer 2020 - Fall 2020}
+			\begin{itemize}
+				\item Optimized student information transfers to external Student Information Systems [SIS] by 75\% by implementing a new exporter algorithm.
+				\item Cut code review time by 50\% by creating an automated SIS integration review script.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{IT Support Engineer}{CHECK}{Winter 2019 - Summer 2020}
+			\begin{itemize}
+				\item Reduced time to generate digital user content by 40\% by automating media distribution workflow.
+				\item Revamped network security protocols, resulting in a 50\% reduction in incident occurrence.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Costa Rica, SJO}{ULACIT}{Spring 2018 -- Spring 2021}
+			\begin{itemize}
+				\item B.S.E. in Computer Science - Graduated Spring 2021
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects \& Freelance Work}{}{}
+			\begin{itemize}
+				\item \textbf{SimpleBank} (2022). Conceptualized a fintech cloud API for simulating parallel bank transactions. Go, Gin.
+			\end{itemize}
+			\begin{itemize}
+				\item \textbf{Prime Provisions} (2023). Assembled a provisioning service and store for Mega-yacht restaurants. PHP, JS.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Intern Mentor, SchoolMint (2022, 2023):} Taught interns Computer Science concepts for their careers.
+				\item \textbf{Winner, ActiveCampaign Hackathon:} Awarded People's Choice Prize for ARC Nouveau, out of 20 projects.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Go; Gin; Ruby; Ruby on Rails; Typescript; Node.js; Next.js; Elixir; SQL; MySQL; PostgreSQL; GraphQL;
+				\item AWS; Grafana; Docker; Kubernetes; Prometheus; Pulumi; Traefik; A/B Testing; Microservices; CI/CD;
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
+
